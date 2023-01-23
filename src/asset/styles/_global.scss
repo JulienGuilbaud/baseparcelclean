@@ -1,0 +1,19 @@
+@use "./mixin";
+
+/* responsive générique  */
+
+* {
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  video{
+    max-width: 100%;
+  }
+ 
+/* style générique */
+
+

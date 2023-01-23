@@ -1,0 +1,46 @@
+
+/* petit mobile jusqu'a écran 4k*/
+
+/* ne pas hésiter a en rajouter si besoin */
+
+@mixin mobileS {
+    @media screen and (min-width: 320px) {
+      @content;
+    }
+  }
+  
+  @mixin mobileM {
+    @media screen and (min-width: 375px) {
+      @content;
+    }
+  }
+  
+  @mixin mobileL {
+    @media screen and (min-width: 425px) {
+      @content;
+    }
+  }
+  
+  @mixin tablet {
+    @media screen and (min-width: 768px) {
+      @content;
+    }
+  }
+
+  @mixin laptop {
+    @media screen and (min-width: 1024px) {
+      @content;
+    }
+  }
+
+  @mixin laptopL {
+    @media screen and (min-width: 1440px) {
+      @content;
+    }
+  }
+
+  @mixin XL {
+    @media screen and (min-width:2560px ) {
+      @content;
+    }
+  }
